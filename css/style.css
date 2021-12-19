@@ -1,0 +1,106 @@
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+    animation-name: h1 ;
+    animation-duration: 1.7s;
+
+    
+  
+}
+
+
+@keyframes h1 {
+
+    from {
+
+        font-size: 100vw;
+        color: rgb(165, 15, 179);
+        transform: rotate(-90deg);
+        
+        
+    }
+
+    to {
+
+     
+    }
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40%;
+    margin-bottom: 50%;
+    font-size: 4vw;
+
+}
+
+.container {
+width: 80vw;
+display: flexbox;
+
+margin: 0 auto;
+    margin-top: 5vw;
+    animation-duration: 2s;
+    animation-name: amazingSurprise;
+    border-radius: 40%;
+}
+
+
+@keyframes amazingSurprise {
+from {
+    opacity: 0%;
+    
+    width: 100vw;
+    height: 100vw;
+    border-radius: 50%;
+    background-color: rgb(125, 22, 243);
+    transition-delay: 5ms;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+    margin-left: 50%;
+    margin-right: 50ch;
+   
+}
+to {
+    opacity: 100%;
+   
+  
+}
+
+}
+
+
+.container2 {
+
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    margin-bottom: 4vw;
+    animation-name: amazingSurprise;
+    animation-duration: 2.4s;
+  
+}
+
+
+a {
+
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+ 
+   
+    width: 20vw;
+    
+}
+
+
